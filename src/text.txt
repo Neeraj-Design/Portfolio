@@ -1,4 +1,4 @@
 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
 
-
+ base: "/Portfolio/"
  git remote set-url origin https://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@github.com/Neeraj-Design/Portfolio.git
