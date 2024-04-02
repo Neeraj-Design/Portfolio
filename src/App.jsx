@@ -5,17 +5,18 @@ function App() {
 
   return (
    <>
-      <div className="main">
-        <div className="hersection">
-        <p className='hello'>Hello, I'm</p>
-        <p className='neeraj'>Neeraj Kumar.</p>
-        <p className='designer'>Visual & Experience Designer</p>
+       <div className="container">
+       <div className="herotext">
+          Hello, I’m <br />
+          <span>Neeraj Kumar</span>
         </div>
-        <div className="hrdiv">
-
-       <hr className='hr-line ' />
+        <div className="visualtext">
+          Visual & Experience Designer
         </div>
-        <button className='continue'>Click To Continue</button>
+        <div className="line"></div>
+        <div className="button">
+          <button className='continue'>Click To Continue</button>
+        </div>
       </div>
    </>
   )

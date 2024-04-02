@@ -1,52 +1,62 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
 
-/* Rest of your CSS code */
 body {
     font-family: "Inter", sans-serif;
     margin: 0;
     padding: 0;
 }
-
-.main {
-    text-align: center;
+.container {
     display: flex;
     flex-direction: column;
-    margin-top: -30px;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
 }
 
-.hello {
+.line {
+    width: 2px;
+    /* Width of the line */
+    background-color: #191919;
+    margin-top: calc(20px + 10px + 30px);
+    /* Margin from herotext, visualtext, and button */
+    margin-bottom: 50px;
+    margin-top: 15px;
+    
+    flex: 1;
+    
+}
+
+.herotext {
+    margin-top: 20px;
     font-size: 58px;
     font-weight: 900;
     color: #191919;
+    text-align: center;
 }
 
-.neeraj {
-    margin-top: -55px;
-    font-size: 58px;
-    color: #191919;
-    font-weight: 900;
+.herotext span {
+    display: block;
 }
 
-.hr-line {
-    width: 300px;
-    transform: rotate(90deg);
-    margin-top: 170px;
-    border: 1px solid #191919;
-    margin-bottom: 185px;
-}
-
-.designer {
-    margin-top: -44px;
+.visualtext {
+    margin-top: 10px;
+    margin-bottom: 30px;
+    /* Margin from line */
     color: #8C8C8C;
     font-weight: 500;
     font-size: 18px;
 }
 
+.button {
+    margin-top: auto;
+    /* Stick button to bottom */
+}
+
 .continue {
     width: 150px;
     font-family: "Inter", sans-serif;
-    margin-left: auto;
-    margin-right: auto;
+    margin-bottom: 30px;
+    /* Margin from line */
     height: 35px;
     background-color: #191919;
     border: none;
@@ -55,42 +65,28 @@ body {
     color: white;
 }
 
-/* Responsive adjustments */
-@media screen and (max-width: 768px) {
-    .hello {
-        font-size: 40px;
+@media only screen and (max-width: 768px) {
+    .herotext {
+        font-size: 36px;
+        /* Decrease font size for smaller screens */
     }
 
-    .neeraj {
-        font-size: 40px;
-    }
-
-    .designer {
+    .visualtext {
         font-size: 16px;
+        /* Decrease font size for smaller screens */
     }
 
-
-    .hr-line {
-        margin-top: 100px;
-        margin-bottom: 105px;
-    }
-}
-
-@media screen and (max-width: 480px) {
-    .hello {
-        font-size: 30px;
+    .continue {
+        width: 120px;
+        /* Decrease button width for smaller screens */
+        height: 30px;
+        /* Decrease button height for smaller screens */
     }
 
-    .neeraj {
-        font-size: 30px;
-    }
-
-    .designer {
-        font-size: 14px;
-    }
-
-    .hr-line {
-        margin-top: 70px;
-        margin-bottom: 75px;
+    .line {
+        margin-top: 15px;
+        /* Adjust margin for smaller screens */
+        margin-bottom: 30px;
+        /* Adjust margin for smaller screens */
     }
 }
