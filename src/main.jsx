@@ -1,10 +1,20 @@
-import React from 'react'
-import ReactDOM from 'react-dom/client'
-import App from './App.jsx'
-import './index.css'
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
 
-ReactDOM.createRoot(document.getElementById('root')).render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-)
+import App from './App.jsx';
+import Work from './Work.jsx'; // Import your Work component
+import About from './About.jsx'; // Import your About component
+import Contact from './Contact.jsx'; // Import your Contact component
+import { createRoot } from 'react-dom/client';
+import './index.css';
+
+createRoot(document.getElementById('root')).render(
+  <BrowserRouter>
+
+    <Routes>
+      <Route path="/portfolio/" element={<App />} />
+      <Route path="/portfolio/work" element={<Work />} />
+      <Route path="/portfolio/about" element={<About />} />
+      <Route path="/portfolio/contact" element={<Contact />} />
+    </Routes>
+  </BrowserRouter>
+);

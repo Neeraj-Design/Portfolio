@@ -19,8 +19,8 @@ body {
     background-color: #191919;
     margin-top: calc(20px + 10px + 30px);
     /* Margin from herotext, visualtext, and button */
-    margin-bottom: 50px;
-    margin-top: 15px;
+    margin-bottom: 90px;
+    margin-top: 55px;
     
     flex: 1;
     
@@ -28,7 +28,7 @@ body {
 
 .herotext {
     margin-top: 20px;
-    font-size: 58px;
+    font-size: 64px;
     font-weight: 900;
     color: #191919;
     text-align: center;
@@ -41,25 +41,32 @@ body {
 .visualtext {
     margin-top: 10px;
     margin-bottom: 30px;
-    /* Margin from line */
+
     color: #8C8C8C;
     font-weight: 500;
-    font-size: 18px;
+    font-size: 20px;
 }
 
-.button {
+.btn {
     margin-top: auto;
-    /* Stick button to bottom */
+ 
 }
-
-.continue {
+.continue a{
+text-decoration: none;
+font-size: 12px;
+    color: white;
+}
+.continue  {
     width: 150px;
+    text-align: center;
     font-family: "Inter", sans-serif;
     margin-bottom: 30px;
-    /* Margin from line */
     height: 35px;
     background-color: #191919;
     border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     border-radius: 8px;
     font-size: 12px;
     color: white;
@@ -68,25 +75,25 @@ body {
 @media only screen and (max-width: 768px) {
     .herotext {
         font-size: 36px;
-        /* Decrease font size for smaller screens */
+
     }
 
     .visualtext {
         font-size: 16px;
-        /* Decrease font size for smaller screens */
+
     }
 
     .continue {
         width: 120px;
-        /* Decrease button width for smaller screens */
+    
         height: 30px;
-        /* Decrease button height for smaller screens */
+
     }
 
     .line {
         margin-top: 15px;
-        /* Adjust margin for smaller screens */
+ 
         margin-bottom: 30px;
-        /* Adjust margin for smaller screens */
+ 
     }
 }
