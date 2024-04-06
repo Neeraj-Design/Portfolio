@@ -14,13 +14,13 @@ const Navbar = () => {
       <div className="right-it">
         <ul>
           <li>
-            <Link to="/Portfolio/work" className={location.pathname === '/Portfolio/work' ? 'active' : ''}>Work</Link>
+            <Link to="/work" className={location.pathname === '/work' ? 'active' : ''}>Work</Link>
           </li>
           <li>
-            <Link to="/Portfolio/about" className={location.pathname === '/Portfolio/about' ? 'active' : ''}>About</Link>
+            <Link to="/about" className={location.pathname === '/about' ? 'active' : ''}>About</Link>
           </li>
           <li>
-            <Link to="/Portfolio/contact" className={location.pathname === '/Portfolio/contact' ? 'active' : ''}>Contact</Link>
+            <Link to="/contact" className={location.pathname === '/contact' ? 'active' : ''}>Contact</Link>
           </li>
         </ul>
       </div>

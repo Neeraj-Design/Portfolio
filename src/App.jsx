@@ -15,7 +15,7 @@ function App() {
         <div className="line"></div>
         <div className="btn">
           <div className="continue">
-          <Link to="/Portfolio/about" >Click To Continue</Link>
+          <Link to="/about" >Click To Continue</Link>
           </div>
         </div>
       </div>
