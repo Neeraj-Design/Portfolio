@@ -9,7 +9,7 @@ const Navbar = () => {
     <div className="navbar">
       <div className="logo">
         {/* Update the image src with the base URL */}
-        <img src="/Portfolio/NK.svg" alt="Logo" />
+        <img src="/NK.svg" alt="Logo" />
       </div>
       <div className="right-it">
         <ul>
