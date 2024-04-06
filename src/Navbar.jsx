@@ -9,18 +9,18 @@ const Navbar = () => {
     <div className="navbar">
       <div className="logo">
         {/* Update the image src with the base URL */}
-        <img src="/NK.svg" alt="Logo" />
+        <img src="/Portfolio/NK.svg" alt="Logo" />
       </div>
       <div className="right-it">
         <ul>
           <li>
-            <Link to="/work" className={location.pathname === '/work' ? 'active' : ''}>Work</Link>
+            <Link to="/Portfolio/work" className={location.pathname === '/Portfolio/work' ? 'active' : ''}>Work</Link>
           </li>
           <li>
-            <Link to="/about" className={location.pathname === '/about' ? 'active' : ''}>About</Link>
+            <Link to="/Portfolio/about" className={location.pathname === '/Portfolio/about' ? 'active' : ''}>About</Link>
           </li>
           <li>
-            <Link to="/contact" className={location.pathname === '/contact' ? 'active' : ''}>Contact</Link>
+            <Link to="/Portfolio/contact" className={location.pathname === '/Portfolio/contact' ? 'active' : ''}>Contact</Link>
           </li>
         </ul>
       </div>

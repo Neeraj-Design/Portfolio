@@ -11,10 +11,10 @@ createRoot(document.getElementById('root')).render(
   <BrowserRouter>
 
     <Routes>
-      <Route path="/" element={<App />} />
-      <Route path="/work" element={<Work />} />
-      <Route path="/about" element={<About />} />
-      <Route path="/contact" element={<Contact />} />
+      <Route path="/Portfolio/" element={<App />} />
+      <Route path="/Portfolio/work" element={<Work />} />
+      <Route path="/Portfolio/about" element={<About />} />
+      <Route path="/Portfolio/contact" element={<Contact />} />
     </Routes>
   </BrowserRouter>
 );
