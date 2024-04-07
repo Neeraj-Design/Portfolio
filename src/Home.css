@@ -1,0 +1,94 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.line {
+    width: 2px;
+    /* Width of the line */
+    background-color: #191919;
+    margin-top: calc(20px + 10px + 30px);
+    /* Margin from herotext, visualtext, and button */
+    margin-bottom: 90px;
+    margin-top: 55px;
+
+    flex: 1;
+
+}
+
+.herotext {
+    margin-top: 20px;
+    font-size: 64px;
+    font-weight: 900;
+    color: #191919;
+    text-align: center;
+}
+
+.herotext span {
+    display: block;
+}
+
+.visualtext {
+    margin-top: 10px;
+    margin-bottom: 30px;
+
+    color: #8C8C8C;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.btn {
+    margin-top: auto;
+
+}
+
+.continue a {
+    text-decoration: none;
+    font-size: 12px;
+    color: white;
+}
+
+.continue {
+    width: 150px;
+    text-align: center;
+    font-family: "Inter", sans-serif;
+    margin-bottom: 30px;
+    height: 35px;
+    background-color: #191919;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    font-size: 12px;
+    color: white;
+}
+
+@media only screen and (max-width: 768px) {
+    .herotext {
+        font-size: 36px;
+
+    }
+
+    .visualtext {
+        font-size: 16px;
+
+    }
+
+    .continue {
+        width: 120px;
+
+        height: 30px;
+
+    }
+
+    .line {
+        margin-top: 15px;
+
+        margin-bottom: 30px;
+
+    }
+}

@@ -1,20 +1,17 @@
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
-
-import App from './App.jsx';
-import Work from './Work.jsx'; // Import your Work component
-import About from './About.jsx'; // Import your About component
-import Contact from './Contact.jsx'; // Import your Contact component
 import { createRoot } from 'react-dom/client';
-import './index.css';
+import App from './App.jsx';
+import Work from './Work.jsx';
+import About from './About.jsx';
+import Contact from './Contact.jsx';
 
 createRoot(document.getElementById('root')).render(
-  <BrowserRouter>
-
+  <BrowserRouter basename="/Portfolio">
     <Routes>
-      <Route path="/Portfolio/" element={<App />} />
-      <Route path="/Portfolio/work" element={<Work />} />
-      <Route path="/Portfolio/about" element={<About />} />
-      <Route path="/Portfolio/contact" element={<Contact />} />
+      <Route path="/" element={<App />} /> {/* This route corresponds to "/Portfolio/" */}
+      <Route path="/work" element={<Work />} />
+      <Route path="/about" element={<About />} />
+      <Route path="/contact" element={<Contact />} />
     </Routes>
   </BrowserRouter>
 );

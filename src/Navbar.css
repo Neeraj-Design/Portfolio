@@ -1,7 +1,7 @@
 /* About.css */
 .navbar {
     background-color: #191919;
-    color: white;
+    color: #8C8C8C;
     padding: 10px 20px;
     height: 35px;
     display: flex;
@@ -24,11 +24,11 @@
 }
 
 .navbar a {
-    color: white;
+    color: #8C8C8C;
     text-decoration: none;
 }
 
 .navbar a.active {
-    color: #8C8C8C;
+    color: #ffffff;
     /* Change color of active link */
 }
