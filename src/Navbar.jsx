@@ -1,6 +1,6 @@
-// Navbar.jsx
 import { Link, useLocation } from 'react-router-dom';
 import './Navbar.css';
+
 
 const Navbar = () => {
   const location = useLocation();
@@ -8,8 +8,9 @@ const Navbar = () => {
   return (
     <div className="navbar">
       <div className="logo">
-        {/* Update the image src with the base URL */}
-        <img src="/Portfolio/NK.svg" alt="Logo" />
+        <Link to="/">
+          <img src="/Portfolio/NK.svg" alt="Logo" />
+        </Link>
       </div>
       <div className="right-it">
         <ul>
