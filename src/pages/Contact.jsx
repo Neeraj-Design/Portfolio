@@ -1,5 +1,5 @@
 
-import Navbar from './Navbar'; // Import your Navbar component
+import Navbar from '../components/Navbar'; // Import your Navbar component
 
 const Contact = () => {
   return (
