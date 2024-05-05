@@ -1,12 +1,12 @@
 import Navbar from '../components/Navbar'; 
 import './Work.css';
-import { Link } from 'react-router-dom';
-
+// import { Link } from 'react-router-dom';
+import Ui from '../components/Ui'
 const Work = () => {
   return (
     <>
       <Navbar /> 
-      <div className="work-container">
+      {/* <div className="work-container">
         <div className="work-content">
           <div className="graphics">
             <Link to="/Portfolio/graphics">
@@ -21,7 +21,8 @@ const Work = () => {
             </Link>
           </div>
         </div>
-      </div>
+      </div> */}
+      <Ui />
     </>
   );
 };
