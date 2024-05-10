@@ -15,7 +15,7 @@ const Ui = () => {
           </div>
           <div className="View-Project-btn">
             <div className="View-Project">
-              <Link to="/Portfolio/">View Project</Link>
+              <Link to="/Portfolio/modaMuse">View Project</Link>
             </div>
           </div>
         </div>
@@ -40,7 +40,7 @@ const Ui = () => {
           </div>
           <div className="View-Project-btn">
             <div className="View-Project">
-              <Link to="/Portfolio/">View Project</Link>
+              <Link to="/Portfolio/homeHive">View Project</Link>
             </div>
           </div>
         </div>
@@ -60,7 +60,7 @@ const Ui = () => {
           </div>
           <div className="View-Project-btn">
             <div className="View-Project">
-              <Link to="/Portfolio/">View Project</Link>
+              <Link to="/Portfolio/aliveSpaces">View Project</Link>
             </div>
           </div>
         </div>
@@ -85,7 +85,7 @@ const Ui = () => {
           </div>
           <div className="View-Project-btn">
             <div className="View-Project">
-              <Link to="/Portfolio/">View Project</Link>
+              <Link to="/Portfolio/sereniTech">View Project</Link>
             </div>
           </div>
         </div>
@@ -106,7 +106,7 @@ const Ui = () => {
           </div>
           <div className="View-Project-btn">
             <div className="View-Project">
-              <Link to="/Portfolio/">View Project</Link>
+              <Link to="/Portfolio/easyGrocery">View Project</Link>
             </div>
           </div>
         </div>

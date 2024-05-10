@@ -3,7 +3,10 @@
     align-items: center;
  
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
+    margin-left: 170px;
+    margin-right: 150px;
+   
 }
 
 .leftSide img {
