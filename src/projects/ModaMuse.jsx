@@ -1,5 +1,5 @@
 import Navbar from '../components/Navbar';
-import './ModaMuse.css'
+import './project.css'
 
 const ModaMuse = () => {
   return (

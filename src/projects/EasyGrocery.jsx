@@ -1,10 +1,13 @@
 import Navbar from '../components/Navbar';
+import './project.css'
 
 const EasyGrocery = () => {
   return (
     <>
     <Navbar /> 
-    <div>EasyGrocery</div>
+     <div className="project5-container">
+      <img src="/Portfolio/p5.png" alt="" />
+    </div>
     </>
   )
 }
