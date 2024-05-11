@@ -6,7 +6,7 @@ const ModaMuse = () => {
     <>
     <Navbar /> 
     <div className="project1-container">
-      <img src="/Portfolio/p1.png" alt="" />
+      <img src="/Portfolio/p1.jpg" alt="" />
     </div>
     </>
   )

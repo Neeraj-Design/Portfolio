@@ -6,7 +6,7 @@ const EasyGrocery = () => {
     <>
     <Navbar /> 
      <div className="project5-container">
-      <img src="/Portfolio/p5.png" alt="" />
+      <img src="/Portfolio/p5.jpg" alt="" />
     </div>
     </>
   )
