@@ -32,3 +32,26 @@
     color: #ffffff;
     /* Change color of active link */
 }
+
+/* Media queries for responsiveness */
+@media screen and (max-width: 768px) {
+    .navbar {
+    font-size: 13px;
+        height: auto;
+        padding: 15px;
+        align-items: center;
+    }
+
+    .logo {
+        margin-left: 10px;
+
+        /* Add some margin between logo and nav items */
+    }
+.logo img{
+  height: 18px;
+
+}
+    .navbar li {
+        margin-left: 1px;
+    }
+}

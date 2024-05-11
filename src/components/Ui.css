@@ -48,3 +48,32 @@ text-decoration: none;
 .View-Project-btn{
     margin-top: 20px;
 }
+@media screen and (max-width: 768px) {
+    .project-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .project-overview {
+        order: 2;
+        /* Move project overview below the image */
+    }
+
+    .project-name,
+    .project-detail,
+    .View-Project-btn {
+        margin-top: 10px;
+        /* Adjust margin for smaller screens */
+    }
+.project-container{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+    .project-img img {
+        height: auto;
+        margin-top: 50px;
+        /* Allow image to resize proportionally */
+        max-width: 100%;
+        /* Ensure image doesn't overflow container */
+    }
+}
