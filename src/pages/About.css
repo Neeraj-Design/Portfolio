@@ -1,226 +1,238 @@
 .heroSection {
-    margin-top: 90px;
-    align-items: center;
- 
-    display: flex;
-    justify-content: space-between;
-    margin-left: 170px;
-    margin-right: 150px;
-   
+  margin-top: 90px;
+  align-items: center;
+
+  display: flex;
+  justify-content: space-between;
+  margin-left: 170px;
+  margin-right: 150px;
 }
 
 .leftSide img {
-   height: 470px;
+  height: 470px;
 }
 
 .rightSide {
-    width: 450px;
- 
- 
+  width: 450px;
 }
 
 .hitext {
-    margin-top: 0;
-    font-size: 45px;
-    font-weight: 600;
-    color: #191919;
+  margin-top: 0;
+  font-size: 45px;
+  font-weight: 600;
+  color: #191919;
+}
+.hitext1 {
+display: none;
+  margin-top: 0;
+  font-size: 45px;
+  font-weight: 600;
+  color: #191919;
 }
 
 .introFirst {
-    font-size: 16px;
-    color: #7e7e7e;
+  font-size: 16px;
+  color: #7e7e7e;
 }
-.eduSection{
-    margin-top: 100px;
-    color: #191919;
-    display: flex;
-    font-size: 35px;
-    font-weight: 700;
-    justify-content: space-between;
-    margin-left: 170px;
-    margin-right: 170px;
-}
-
-.institution{
-    font-size: 16px;
-    color: #191919;
-    font-weight: 600;
-font-style: italic;
-}
-.skills{
-    color: #191919;
-}
-.degree{
-    margin-top: -10px;
-    font-size: 14px;
-    color: #7e7e7e;
-    font-weight: 500;
-}
-.skillset1{
-    font-size: 14px;
-    font-weight: 600;
-    display: flex;
-    color: #191919;
-    gap: 20px;
-    margin-top: -16px;
-}
-.skillset2{
-    color: #191919;
-    font-size: 14px;
-    font-weight: 600;
-    display: flex;
-    gap: 20px;
-    margin-top: -20px;
-}
-.horizLine1{
-    margin-left: 170px;
-    margin-right: 150px;
-    height: 2.5px;
-    background-color: #000000;
-    margin-bottom: 20px;
-    margin-top: 40px;
-}
-.foot-container{
-    margin-left: 170px;
-        margin-right: 150px;
-        display: flex;
-       
-       
-        justify-content: space-between;
-}
-.resume-section{
-    display: flex;
-    flex-direction: column;
-}
-.resume-section span{
-    font-size: 27px;
-    margin-top: 2px;
-    font-weight: 500;
-    color: #191919;
-}
-.viewResumebtn{
-    margin-top: 20px;
-    width: 110px;
-        text-align: center;
-        font-family: "Inter", sans-serif;
-        height: 30px;
-        background-color: #191919;
-        border: none;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        border-radius: 4px;
-        font-size: 12px;
-        color: white;
-}
-.resume-section img{
-    height: 18px;
-    margin-left: 52px;
-}
-.contact-section p{
-font-size: 19px;
-font-weight: 500;
-margin-top: -1px;
-color: #191919;
+.eduSection {
+  margin-top: 100px;
+  color: #191919;
+  display: flex;
+  font-size: 35px;
+  font-weight: 700;
+  justify-content: space-between;
+  margin-left: 170px;
+  margin-right: 170px;
 }
 
-.socials{
-    justify-content: flex-end;
-    display: flex;
-    gap: 10px;
+.institution {
+  font-size: 16px;
+  color: #191919;
+  font-weight: 600;
+  font-style: italic;
 }
-.socials img{
-    height: 20px;
+.skills {
+  color: #191919;
+}
+.degree {
+  margin-top: -10px;
+  font-size: 14px;
+  color: #7e7e7e;
+  font-weight: 500;
+}
+.skillset1 {
+  font-size: 14px;
+  font-weight: 600;
+  display: flex;
+  color: #191919;
+  gap: 20px;
+  margin-top: -16px;
+}
+.skillset2 {
+  color: #191919;
+  font-size: 14px;
+  font-weight: 600;
+  display: flex;
+  gap: 20px;
+  margin-top: -20px;
+}
+.horizLine1 {
+  margin-left: 170px;
+  margin-right: 150px;
+  height: 2.5px;
+  background-color: #000000;
+  margin-bottom: 20px;
+  margin-top: 40px;
+}
+.foot-container {
+  margin-left: 170px;
+  margin-right: 150px;
+  display: flex;
+
+  justify-content: space-between;
+}
+.resume-section {
+  display: flex;
+  flex-direction: column;
+}
+.resume-section span {
+  font-size: 27px;
+  margin-top: 2px;
+  font-weight: 500;
+  color: #191919;
+}
+.viewResumebtn {
+  margin-top: 20px;
+  width: 110px;
+  text-align: center;
+  font-family: "Inter", sans-serif;
+  height: 30px;
+  background-color: #191919;
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 4px;
+  font-size: 12px;
+  color: white;
+}
+.resume-section img {
+  height: 18px;
+  margin-left: 52px;
+}
+.contact-section p {
+  font-size: 19px;
+  font-weight: 500;
+  margin-top: -1px;
+  color: #191919;
 }
 
-.neeraj-foot{
-    font-size: 17px;
-    font-weight: 500;
-    color: #191919;
-    margin-top: 70px;
-    margin-bottom: 20px;
-    text-align: right;
-    margin-right: 150px;
+.socials {
+  justify-content: flex-end;
+  display: flex;
+  gap: 10px;
+}
+.socials img {
+  height: 20px;
+}
+
+.neeraj-foot {
+  font-size: 17px;
+  font-weight: 500;
+  color: #191919;
+  margin-top: 70px;
+  margin-bottom: 20px;
+  text-align: right;
+  margin-right: 150px;
 }
 @media screen and (max-width: 768px) {
-    .heroSection {
-        margin-top: 20px;
-        margin-bottom: 10px;
-        flex-direction: column;
-        margin-left: 20px;
-        margin-right: 20px;
-        align-items: flex-start;
-    }
+  .heroSection {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    flex-direction: column;
+    margin-left: 20px;
+    margin-right: 20px;
+    align-items: flex-start;
+  }
 
-    .leftSide img {
-        height: auto;
-        max-width: 100%;
-    }
+  .leftSide img {
+    height: auto;
+    max-width: 100%;
+  }
 
-    .rightSide {
-        width: 100%;
-        margin-top: 20px;
+  .rightSide {
+    width: 100%;
+    margin-top: 20px;
+  }
 
-    }
+  .introFirst,
+  .educationHeading,
+  .skillsHeading,
+  .neeraj-foot {
+    font-size: 14px;
+  }
 
-    .introFirst,
-    .educationHeading,
-    .skillsHeading,
-    .neeraj-foot {
-        font-size: 14px;
+  .hitext1 {
+    font-size: 25px;
+    display: block;
+    text-align: center;
+  }
 
-    }
-
-    .hitext {
-        font-size: 25px;
-
-    }
-   
-.skillset1,.skillset2{
+  .skillset1,
+  .skillset2 {
     display: flex;
     gap: 10px;
- 
-}
-    .degree,
-    .institution,
-    .skillList,
-    .contact-section p,
-    .resume-section span {
-        font-size: 12px;
+  }
+  .degree,
+  .institution,
+  .skillList,
+  .contact-section p,
+  .resume-section span {
+    font-size: 12px;
+  }
 
-    }
+  .horizLine1 {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
 
-    .horizLine1 {
-        margin-left: 20px;
-        margin-right: 20px;
-    }
+  .foot-container {
+    flex-direction: column;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
 
-    .foot-container {
-        flex-direction: column;
-        margin-left: 20px;
-        margin-right: 20px;
-    }
-   
-    .neeraj-foot {
-        text-align: center;
-       margin-left: 0px;
-       margin-right: 0px;
-    }
-        .eduSection {
-            margin-left: 20px;
-            margin-top: -5px;
-            align-items: flex-start;
-           flex-direction: column;
-    
-            margin-right: 0px;
-        }
+  .neeraj-foot {
+    text-align: center;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  .eduSection {
+    margin-left: 20px;
+    margin-top: -5px;
+    align-items: flex-start;
+    flex-direction: column;
 
-        .contact-section p{
-            margin-top: 20px;
-        }
-            .contact-section{
-                display: flex;
-                flex-direction: column;
-                align-items: flex-start;
-                }
+    margin-right: 0px;
+  }
+
+  .contact-section p {
+    margin-top: 20px;
+  }
+  .contact-section {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .horizLine1 {
+    margin-bottom: 20px;
+    margin-top: 20px;
+  }
+  .arrowimg{
+    display: none;
+  }
+  .hitext {
+      display: none;
+  }
 }

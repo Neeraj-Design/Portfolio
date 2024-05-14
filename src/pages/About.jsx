@@ -5,6 +5,7 @@ const About = () => {
     <>
       <Navbar /> 
      <div className="heroSection">
+      <p className='hitext1'>Hi, I’m Neeraj Kumar, a multidisciplinary designer with a passion for Visual design.</p>
       <div className="leftSide">
         <img src="/Portfolio/DP.png" alt="" />
       </div>
@@ -42,7 +43,7 @@ const About = () => {
      <div className="foot-container">
       <div className="resume-section">
         <span>I’m thrilled to answer to</span>
-        <span>your next project <img src="/Portfolio/arrow.png" alt="" /></span>
+        <span>your next project <img className='arrowimg' src="/Portfolio/arrow.png" alt="" /></span>
         <button className='viewResumebtn'>View Resume</button>
       </div>
       <div className="contact-section">
@@ -53,7 +54,7 @@ const About = () => {
         </div>
       </div>
       </div>
-      <p className='neeraj-foot'>Neeraj Kumar -2024</p>
+      <p className='neeraj-foot'>Neeraj Kumar - 2024</p>
     </>
   );
 };

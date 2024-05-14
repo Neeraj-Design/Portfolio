@@ -38,3 +38,17 @@
     height: auto;
     display: block;
 }
+.p13 {
+    height: 100px;
+}
+.proj1-scrolling {
+    display: flex;
+    overflow-x: auto;
+    /* Enable horizontal scrolling */
+}
+
+.scrollingimg {
+width: auto;
+    /* Ensure images don't exceed the container width */
+    height: 700px;
+}
