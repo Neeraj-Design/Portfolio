@@ -144,9 +144,12 @@ color: #191919;
 }
 @media screen and (max-width: 768px) {
     .heroSection {
+        margin-top: 20px;
+        margin-bottom: 10px;
         flex-direction: column;
         margin-left: 20px;
         margin-right: 20px;
+        align-items: flex-start;
     }
 
     .leftSide img {
@@ -157,7 +160,7 @@ color: #191919;
     .rightSide {
         width: 100%;
         margin-top: 20px;
-        text-align: center;
+
     }
 
     .introFirst,
@@ -165,18 +168,18 @@ color: #191919;
     .skillsHeading,
     .neeraj-foot {
         font-size: 14px;
-        /* Adjust font size for smaller screens */
+
     }
 
     .hitext {
-        font-size: 28px;
-        /* Adjust font size for smaller screens */
+        font-size: 25px;
+
     }
    
 .skillset1,.skillset2{
     display: flex;
-    gap: 0px;
-    flex-direction: column;
+    gap: 10px;
+ 
 }
     .degree,
     .institution,
@@ -184,7 +187,7 @@ color: #191919;
     .contact-section p,
     .resume-section span {
         font-size: 12px;
-        /* Adjust font size for smaller screens */
+
     }
 
     .horizLine1 {
@@ -197,12 +200,11 @@ color: #191919;
         margin-left: 20px;
         margin-right: 20px;
     }
-    .skillset2{
-        margin-top: 2px;
-    }
+   
     .neeraj-foot {
-        margin-right: 20px;
         text-align: center;
+       margin-left: 0px;
+       margin-right: 0px;
     }
         .eduSection {
             margin-left: 20px;

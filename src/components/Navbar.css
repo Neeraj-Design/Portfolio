@@ -51,7 +51,8 @@
   height: 18px;
 
 }
+
     .navbar li {
-        margin-left: 1px;
+        margin-left: -8px;
     }
 }

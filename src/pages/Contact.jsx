@@ -1,14 +1,11 @@
 
-import Navbar from '../components/Navbar'; // Import your Navbar component
-
+import Navbar from '../components/Navbar'; 
 const Contact = () => {
   return (
     <>
-      <Navbar /> {/* Render the Navbar component */}
+      <Navbar /> 
       <div className="contact-content">
-        {/* Your Contact page content goes here */}
         <h1>Contact Page</h1>
-        <p>This is the Contact page content.</p>
       </div>
     </>
   );

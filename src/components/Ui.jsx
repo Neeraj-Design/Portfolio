@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 const Ui = () => {
   return (
     <>
+    <div className="uicomp">
       {/* 1 */}
       <div className="project-container">
         <div className="project-overview">
@@ -113,6 +114,7 @@ const Ui = () => {
         <div className="project-img">
           <img src="/Portfolio/Easy Grocery.png" alt="" />
         </div>
+      </div>
       </div>
     </>
   );
