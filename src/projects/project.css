@@ -50,3 +50,9 @@
 width: auto;
 height: 100%;
 }
+@media screen and (max-width: 768px) {
+.scrollingimg {
+        width: auto;
+        height: 250px;
+    }
+}
