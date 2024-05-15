@@ -44,11 +44,9 @@
 .proj1-scrolling {
     display: flex;
     overflow-x: auto;
-    /* Enable horizontal scrolling */
 }
 
 .scrollingimg {
 width: auto;
-    /* Ensure images don't exceed the container width */
-    height: 700px;
+height: 100%;
 }
