@@ -23,7 +23,7 @@ const ModaMuse = () => {
       if (!isDragging) return;
       event.preventDefault();
       const x = event.pageX - scrollRef.current.offsetLeft;
-      const walk = (x - startX) * 2; // Adjust the multiplier to control the drag speed
+      const walk = (x - startX) * 2; 
       scrollRef.current.scrollLeft = scrollLeft - walk;
     };
 

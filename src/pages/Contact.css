@@ -1,0 +1,7 @@
+.contact-content {
+  justify-content: space-around;
+  display: flex;
+  flex-direction: column;
+  margin-top: 100px;
+  height: 70vh;
+}

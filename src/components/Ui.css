@@ -56,9 +56,9 @@
   .project-overview {
     order: 2;
   }
-.uicomp{
+  .uicomp {
     margin-bottom: 15px;
-}
+  }
   .project-name,
   .project-detail,
   .View-Project-btn {
