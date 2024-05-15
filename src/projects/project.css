@@ -55,4 +55,20 @@ height: 100%;
         width: auto;
         height: 250px;
     }
+.prototype iframe{
+
+    display: none;
+}
+.prototype  {
+
+    display: none;
+}
+
+}
+
+.prototype{
+   
+    background-color: #232323;
+    text-align: center;
+    justify-content: center;
 }
