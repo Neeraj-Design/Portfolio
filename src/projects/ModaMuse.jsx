@@ -54,11 +54,11 @@ const ModaMuse = () => {
       </div>
       <div className="prototype">
 
-     <iframe
+  <iframe
   style={{ border: 'none' }}
-  width="500"
-  height="1000"
-  src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2F9dKygcDsjdHOswNWW4U3pB%2FTrend-Analyzer%3Fpage-id%3D0%253A1%26node-id%3D43-17%26t%3DkRcEI7o91XLUYcYT-1"
+  width="100%"
+  height="700px"
+  src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2F0WInfi78UOwGxUZaF3tPKs%2FWorkplace%3Fpage-id%3D8%253A11%26node-id%3D8-11%26viewport%3D352%252C110%252C0.15%26t%3DkbTu0zPC6SpsWOI3-1%26scaling%3Dscale-down"
   allowfullscreen
 />
   </div>
