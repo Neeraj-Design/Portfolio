@@ -55,15 +55,17 @@ height: 100%;
         width: auto;
         height: 250px;
     }
-/* .prototype iframe{
+.prototype iframe{
 
     display: none;
 }
 .prototype  {
 
     display: none;
-} */
-
+} 
+.project1Text-container {
+    display: none;
+}
 }
 
 .prototype{
@@ -72,7 +74,17 @@ height: 100%;
     text-align: center;
     justify-content: center;
 }
-/* .prototype iframe {
-    width: 400px;
-   height: 850px;
-} */
+.prototype iframe {
+    width: 100%;
+   height: 700px;
+}
+.project1Text-container{
+    width: 100%;
+        max-width: 100vw;
+        overflow: hidden;
+}
+.project1Text-container img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
