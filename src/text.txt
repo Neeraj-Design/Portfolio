@@ -7,3 +7,8 @@ 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
 
 
 <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2F0WInfi78UOwGxUZaF3tPKs%2FWorkplace%3Fpage-id%3D8%253A11%26node-id%3D930-3284%26viewport%3D721%252C-237%252C0.5%26t%3DmPPjt7AX0B5j5ffE-1%26scaling%3Dscale-down" allowfullscreen></iframe>
+
+
+
+
+<iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2F0WInfi78UOwGxUZaF3tPKs%2FWorkplace%3Fpage-id%3D8%253A11%26node-id%3D930-4729%26viewport%3D590%252C340%252C0.12%26t%3DmbscOW1cW70MVjq4-1%26scaling%3Dscale-down" allowfullscreen></iframe>
