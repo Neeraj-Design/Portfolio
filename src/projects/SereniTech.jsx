@@ -8,7 +8,7 @@ const SereniTech = () => {
         <img src="/Portfolio/p41.jpg" alt="" />
       </div>
       <div className="project42-container">
-        <img src="/Portfolio/p42.jpg" alt="" />
+        <img src="/Portfolio/p42.png" alt="" />
       </div>
       <div className="animationFrame">
         <div className="upper">
