@@ -70,8 +70,9 @@ const About = () => {
         <div className="contact-section">
           <p>neeraj942000@gmail.com</p>
           <div className="socials">
-            <img src="/Portfolio/linkedin.png" alt="" />
-            <img src="/Portfolio/instagram.png" alt="" />
+            <a href="https://www.behance.net/000nr1118c21NKR"><img src="/Portfolio/behance.png" alt="" /></a>
+            <a href="https://www.linkedin.com/in/neeraj-kumar-002118283/"><img src="/Portfolio/linkedin.png" alt="" /></a>
+           <a href="https://www.instagram.com/_the_neeeraj/?igsh=NHQzdWNzd3o0Zmpy&utm_source=qr"> <img src="/Portfolio/instagram.png" alt="" /></a>
           </div>
         </div>
       </div>
