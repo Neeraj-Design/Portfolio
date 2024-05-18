@@ -77,12 +77,12 @@ const Ui = () => {
           <img src="/Portfolio/Sereni Tech.png" alt="" />
         </div>
         <div className="project-overview">
-          <p className="project-name">Sereni Tech</p>
+          <p className="project-name">Zenify</p>
           <div className="project-detail">   
-           <span>SereniTech aims to help busy individuals of the</span>
-           <span>modern age take a moment for themselves and</span>
-           <span>improve their meditation practice using  </span>
-           <span>personalized biofeedback data.</span>
+           <span>Zenify aims to help busy individuals of the modern</span>
+           <span>age take a moment for themselves and improve</span>
+           <span>their meditation practice using personalized</span>
+           <span>biofeedback data.</span>
           </div>
           <div className="View-Project-btn">
             <div className="View-Project">

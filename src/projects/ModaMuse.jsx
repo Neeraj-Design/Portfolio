@@ -64,7 +64,7 @@ const ModaMuse = () => {
   style={{ border: 'none' }}
   // width="100%"
   // height="700px"
-  src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2F0WInfi78UOwGxUZaF3tPKs%2FWorkplace%3Fpage-id%3D8%253A11%26node-id%3D930-3284%26viewport%3D721%252C-237%252C0.5%26t%3DmPPjt7AX0B5j5ffE-1%26scaling%3Dscale-down"
+  src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2F9dKygcDsjdHOswNWW4U3pB%2FTrend-Analyzer%3Fpage-id%3D257%253A198%26node-id%3D357-499%26viewport%3D628%252C-47%252C0.13%26t%3De3uQQm3drRFu9X8g-1%26scaling%3Dscale-down"
   allowfullscreen
 />
   </div>
