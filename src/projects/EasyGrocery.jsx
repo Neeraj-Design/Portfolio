@@ -6,7 +6,7 @@ const EasyGrocery = () => {
     <>
     <Navbar /> 
      <div className="project5-container">
-      <img src="/Portfolio/p5.jpg" alt="" />
+      <img src="/Portfolio/p5N.jpg" alt="" />
     </div>
     <div className="project1Text-container">
         <img src="/Portfolio/p14.jpg" alt="" />
