@@ -72,6 +72,7 @@
 /* Project Text Container Styles */
 .project1Text-container {
     width: 100%;
+margin-top: -10px;
     max-width: 100vw;
     overflow: hidden;
 }
@@ -124,4 +125,32 @@
     .project42-container {
         display: block;
     }
+}
+
+.footerStrip{
+    display: flex;
+    justify-content: space-between;
+    font-size: 16px;
+    align-items: center;
+    font-weight: 500;
+    color: #333333;
+   
+}
+.footerStrip p{
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.footerStripGrey{
+    display: flex;
+    justify-content: space-between;
+    font-size: 16px;
+    align-items: center;
+    font-weight: 500;
+    color: #333333;
+    background-color: #DBDBDC;
+   
+}
+.footerStripGrey p{
+    margin-left: 50px;
+    margin-right: 50px;
 }

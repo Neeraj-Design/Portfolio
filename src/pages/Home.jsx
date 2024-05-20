@@ -12,11 +12,14 @@ const Home = () => {
         </div>
         <div className="visualtext">Visual & Experience Designer</div>
         <div className="line"></div>
+
+          <Link to="/Portfolio/about" className="link-no-underline">
         <div className="btn">
           <div className="continue">
-          <Link to="/Portfolio/about" >Click To Continue</Link>
+            Click To Continue
           </div>
         </div>
+            </Link>
       </div>
     </>
   )

@@ -14,11 +14,13 @@ const Ui = () => {
            <span>data analytics. Leveraging data from social media</span>
            <span>and online shopping platform.</span>
           </div>
+           <Link to="/Portfolio/modaMuse" className="link-no-underline">
           <div className="View-Project-btn">
             <div className="View-Project">
-              <Link to="/Portfolio/modaMuse">View Project</Link>
+                View Project
             </div>
           </div>
+                </Link>
         </div>
         <div className="project-img">
           <img src="/Portfolio/Moda Muse.png" alt="" />
@@ -39,11 +41,13 @@ const Ui = () => {
            <span>the challenges of finding suitable housing and </span>
            <span>building community abroad.</span>
           </div>
+            <Link to="/Portfolio/homeHive" className="link-no-underline">
           <div className="View-Project-btn">
             <div className="View-Project">
-              <Link to="/Portfolio/homeHive">View Project</Link>
+                View Project
             </div>
           </div>
+                </Link>
         </div>
         
       </div>
@@ -59,11 +63,13 @@ const Ui = () => {
            <span>that aims at creating the riding experience and the</span>
            <span>vessel as alive as possible for the users.</span>
           </div>
+              <Link to="/Portfolio/aliveSpaces" className="link-no-underline">
           <div className="View-Project-btn">
             <div className="View-Project">
-              <Link to="/Portfolio/aliveSpaces">View Project</Link>
+                View Project
             </div>
           </div>
+                </Link>
         </div>
         <div className="project-img">
           <img src="/Portfolio/Alive Spaces.png" alt="" />
@@ -84,11 +90,13 @@ const Ui = () => {
            <span>their meditation practice using personalized</span>
            <span>biofeedback data.</span>
           </div>
+           <Link to="/Portfolio/sereniTech" className="link-no-underline">
           <div className="View-Project-btn">
             <div className="View-Project">
-              <Link to="/Portfolio/sereniTech">View Project</Link>
+                View Project
             </div>
           </div>
+                </Link>
         </div>
         
       </div>
@@ -105,11 +113,13 @@ const Ui = () => {
            <span>consumers to buy their daily grocery needs </span>
            <span>using this platform.  </span>
           </div>
+           <Link to="/Portfolio/easyGrocery" className="link-no-underline">
           <div className="View-Project-btn">
             <div className="View-Project">
-              <Link to="/Portfolio/easyGrocery">View Project</Link>
+                View Project
             </div>
           </div>
+                </Link>
         </div>
         <div className="project-img">
           <img src="/Portfolio/Easy Grocery.png" alt="" />

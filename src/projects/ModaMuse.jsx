@@ -2,12 +2,15 @@ import { useRef, useState, useEffect } from 'react';
 import Navbar from '../components/Navbar';
 import './project.css';
 
+
 const ModaMuse = () => {
   const [isDragging, setIsDragging] = useState(false);
   const [startX, setStartX] = useState(0);
   const [scrollLeft, setScrollLeft] = useState(0);
   const scrollRef = useRef(null);
-
+ useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   useEffect(() => {
     const handleMouseDown = (event) => {
       setIsDragging(true);
@@ -68,7 +71,10 @@ const ModaMuse = () => {
   allowfullscreen
 />
   </div>
-
+<div className="footerStrip">
+    <p>Neeraj Kumar - 2024</p>
+    <p>neeraj942000@gmail.com</p>
+  </div>
     </>
   );
 };

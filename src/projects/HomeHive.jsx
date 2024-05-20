@@ -1,6 +1,10 @@
 import Navbar from '../components/Navbar';
 import './project.css'
+import { useEffect } from 'react';
 const HomeHive = () => {
+   useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <>
     <Navbar /> 
@@ -20,6 +24,10 @@ const HomeHive = () => {
   allowfullscreen
 />
 </div>
+<div className="footerStrip">
+    <p>Neeraj Kumar - 2024</p>
+    <p>neeraj942000@gmail.com</p>
+  </div>
     </>
   )
 }
