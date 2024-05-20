@@ -1,7 +1,60 @@
-.contact-content {
-  justify-content: space-around;
+.contactContainer {
+  position: relative;
+
+  /* background-image: url('/Portfolio/NKbg.png'); */
+  background-size: 60%;
+  background-repeat: no-repeat;
+  background-position-x: right;
+  background-position-y: 200px;
+}
+
+.contactFirst {
+  width: 500px;
+  margin-left: 100px;
+  margin-top: 50px;
+  font-size: 18px;
+  font-weight: 500;
+  color: #191919;
+}
+
+.contactList {
   display: flex;
-  flex-direction: column;
-  margin-top: 100px;
-  height: 70vh;
+}
+
+.contactList p:last-child {
+  flex: 2;
+  margin-left: 200px;
+}
+
+.contactMid {
+  /* display: flex;
+  flex-direction: column; */
+  margin-left: 100px;
+  /* font-size: 45px; */
+  /* font-weight: 700; */
+  /* margin-top: 70px; */
+
+}
+.contactMid img{
+  height: 500px;
+
+}
+
+.contactFoot {
+
+  bottom: 0;
+  width: 100%;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: space-between;
+  font-size: 18px;
+  align-items: center;
+  font-weight: 500;
+  color: #333333;
+}
+.contactFootL{
+  margin-left: 100px;
+}
+.contactFootR{
+  margin-right: 100px;
 }

@@ -125,6 +125,9 @@ margin-top: -10px;
     .project42-container {
         display: block;
     }
+
+
+  
 }
 
 .footerStrip{
@@ -140,7 +143,7 @@ margin-top: -10px;
     margin-left: 50px;
     margin-right: 50px;
 }
-.footerStripGrey{
+/* .footerStripGrey{
     display: flex;
     justify-content: space-between;
     font-size: 16px;
@@ -153,4 +156,10 @@ margin-top: -10px;
 .footerStripGrey p{
     margin-left: 50px;
     margin-right: 50px;
+} */
+@media screen and (max-width: 768px) {
+    .footerStrip {
+        display: none;
+        /* Hide the footerStrip on mobile devices */
+    }
 }
