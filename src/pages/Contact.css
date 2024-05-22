@@ -1,20 +1,22 @@
-.contactContainer {
+/* .contactContainer {
   position: relative;
-
-  /* background-image: url('/Portfolio/NKbg.png'); */
   background-size: 60%;
   background-repeat: no-repeat;
   background-position-x: right;
   background-position-y: 200px;
-}
+} */
 
 .contactFirst {
   width: 500px;
-  margin-left: 100px;
+  margin-left: 170px;
   margin-top: 50px;
   font-size: 18px;
   font-weight: 500;
   color: #191919;
+}
+.contactFirst p{
+  
+  margin-top: 3px;
 }
 
 .contactList {
@@ -23,38 +25,65 @@
 
 .contactList p:last-child {
   flex: 2;
-  margin-left: 200px;
+  margin-left: 65px;
 }
 
 .contactMid {
-  /* display: flex;
-  flex-direction: column; */
-  margin-left: 100px;
-  /* font-size: 45px; */
-  /* font-weight: 700; */
-  /* margin-top: 70px; */
-
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  margin-left: 170px;
+  font-size: 45px;
+  font-weight: 700;
+  margin-top: 30px;
 }
-.contactMid img{
-  height: 500px;
 
+/* .contactMid img {
+  height: 200px;
+} */
+
+.contactMidContent {
+  position: relative;
+  z-index: 1;
+  /* Ensure text is above the image */
+}
+
+.contactMidimg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+}
+
+.contactMidimg img {
+  height: 350px;
+  margin-top: 10px;
+  margin-left: 350px;
 }
 
 .contactFoot {
-
+  position: fixed;
+  margin-left: 170px;
+  /* Stick the footer at the bottom of the viewport */
   bottom: 0;
   width: 100%;
-  background-color: #ffffff;
+  background-color: #ffffff00;
   display: flex;
-  justify-content: space-between;
-  font-size: 18px;
-  align-items: center;
+  justify-content: flex-start;
+  font-size: 17px;
+  flex-direction: column;
+  align-items: flex-start;
   font-weight: 500;
   color: #333333;
 }
-.contactFootL{
-  margin-left: 100px;
-}
-.contactFootR{
-  margin-right: 100px;
-}
+
+/* .contactFootL {
+  margin-left: 170px;
+} */
+
+.contactFootR {
+  /* margin-right: 170px; */
+  margin-bottom: -12px;
+} 
