@@ -6,7 +6,7 @@ body {
 /* Set a max-width for the contact container */
 .contactContainer {
   position: relative;
-  max-width: 100vw;
+  max-width: 70vw;
   /* Ensures the container doesn't exceed the viewport width */
   background-size: 60%;
   background-repeat: no-repeat;
