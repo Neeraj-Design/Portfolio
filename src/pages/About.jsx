@@ -67,10 +67,9 @@ const About = () => {
 
       <div className="foot-container">
         <div className="resume-section">
-          <span>I’m thrilled to answer your next project{" "}</span>
-          <span>
-            <img className="arrowimg" src="/Portfolio/arrow.png" alt="Arrow" />
-          </span>
+          <span>I’m thrilled to answer to</span>
+          <span>your next project  <img className="arrowimg" src="/Portfolio/arrow.png" alt="Arrow" /></span>
+      
           <a href="/Portfolio/Resume.pdf" target="_blank" rel="noopener noreferrer">
             <button className="viewResumebtn ">View Resume</button>
           </a>

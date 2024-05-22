@@ -147,6 +147,9 @@
   text-align: right;
   margin-right: 150px;
 }
+.arrowimg{
+  margin-left: -100px;
+}
 @media screen and (max-width: 768px) {
   .heroSection {
     margin-top: 20px;
