@@ -1,8 +1,10 @@
 import "./Ui.css";
+import Navbar from '../components/Navbar'; 
 import { Link } from "react-router-dom";
 const Ui = () => {
   return (
     <>
+    <Navbar /> 
     <div className="uicomp">
       {/* 1 */}
       <div className="project-container">
