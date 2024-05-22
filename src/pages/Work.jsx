@@ -6,13 +6,56 @@ const Work = () => {
   return (
     <>
       <Navbar /> 
+      {/* 1 */}
+      <div className="workelement">
+
+      
       <div className="work-container">
+        <div className="project-overview">
+          <p className="project-name">UI/UX</p>
+         
+           <Link to="/Portfolio/ui" className="link-no-underline">
+          <div className="View-Project-btn">
+            <div className="View-Projects">
+                View All Projects
+            </div>
+          </div>
+                </Link>
+        </div>
+        <div className="project-img">
+          <img src="/Portfolio/uiux.png" alt="" />
+        </div>
+      </div>
+
+      {/* 2 */}
+
+      <div className="work-container">
+        <div className="project-img">
+          <img src="/Portfolio/graphics.png" alt="" />
+        </div>
+        <div className="project-overview">
+          <p className="project-name">GRAPHICS</p>
+          <div className="project-detail">   
+           <span>Work in progress, will update soon!</span>
+           
+          </div>
+            {/* <Link to="/Portfolio/graphics" className="link-no-underline"> */}
+          <div className="View-Project-btn">
+            <div className="View-Projects">
+                View All Projects
+            </div>
+          </div>
+                {/* </Link> */}
+        </div>
+        
+      </div>
+      {/* <div className="work-container">
         <div className="work-content">
           <div className="graphics">
-            {/* <Link to="/Portfolio/graphics"> */}
+            <Link to="/Portfolio/graphics">
               <img src="/Portfolio/graphics.png" alt="" />
             
-            {/* </Link> */}
+            </Link>
           </div>
 
 
@@ -24,8 +67,9 @@ const Work = () => {
 
 
         </div>
-      </div>
-      <div className="workFoot">
+      </div> */}
+
+      {/* <div className="workFoot">
       
       <div className="workFootL"><p>Neeraj Kumar - 2024</p></div>
       
@@ -37,8 +81,9 @@ const Work = () => {
           </div>
           
           </div>
-     </div>
+     </div> */}
       {/* <Ui /> */}
+      </div>
     </>
   );
 };
