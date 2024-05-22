@@ -135,7 +135,9 @@
 .socials img {
   height: 20px;
 }
-
+ a{
+  text-decoration: none;
+}
 .neeraj-foot {
   font-size: 17px;
   font-weight: 500;

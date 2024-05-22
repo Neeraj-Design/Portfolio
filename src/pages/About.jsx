@@ -1,9 +1,10 @@
 import Navbar from "../components/Navbar";
 import "./About.css";
 import { useEffect } from 'react';
+
 const About = () => {
 
-   useEffect(() => {
+  useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
   
@@ -16,7 +17,7 @@ const About = () => {
           Visual design.
         </p>
         <div className="leftSide">
-          <img src="/Portfolio/DP.png" alt="" />
+          <img src="/Portfolio/DP.png" alt="Profile Picture" />
         </div>
         <div className="rightSide">
           <p className="hitext">
@@ -30,7 +31,7 @@ const About = () => {
           </p>
           <p className="introFirst">
             Currently exploring the realm of Visual Experience Design at UE
-            Applied Sciences Potsdam, I am to Position my practice at the
+            Applied Sciences Potsdam, I aim to position my practice at the
             intersection of design, strategy, and technology.
           </p>
         </div>
@@ -66,19 +67,20 @@ const About = () => {
 
       <div className="foot-container">
         <div className="resume-section">
-          <span>I’m thrilled to answer to</span>
+          <span>I’m thrilled to answer your next project{" "}</span>
           <span>
-            your next project{" "}
-            <img className="arrowimg" src="/Portfolio/arrow.png" alt="" />
+            <img className="arrowimg" src="/Portfolio/arrow.png" alt="Arrow" />
           </span>
-          <button className="viewResumebtn">View Resume</button>
+          <a href="/Portfolio/Resume.pdf" target="_blank" rel="noopener noreferrer">
+            <button className="viewResumebtn ">View Resume</button>
+          </a>
         </div>
         <div className="contact-section">
           <p>neeraj942000@gmail.com</p>
           <div className="socials">
-            <a target="_blank" href="https://www.behance.net/000nr1118c21NKR"><img src="/Portfolio/behance.png" alt="" /></a>
-            <a target="_blank" href="https://www.linkedin.com/in/neeraj-kumar-002118283/"><img src="/Portfolio/linkedin.png" alt="" /></a>
-           <a target="_blank" href="https://www.instagram.com/_the_neeeraj/?igsh=NHQzdWNzd3o0Zmpy&utm_source=qr"> <img src="/Portfolio/instagram.png" alt="" /></a>
+            <a target="_blank" href="https://www.behance.net/000nr1118c21NKR"><img src="/Portfolio/behance.png" alt="Behance" /></a>
+            <a target="_blank" href="https://www.linkedin.com/in/neeraj-kumar-002118283/"><img src="/Portfolio/linkedin.png" alt="LinkedIn" /></a>
+            <a target="_blank" href="https://www.instagram.com/_the_neeeraj/?igsh=NHQzdWNzd3o0Zmpy&utm_source=qr"><img src="/Portfolio/instagram.png" alt="Instagram" /></a>
           </div>
         </div>
       </div>

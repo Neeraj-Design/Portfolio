@@ -25,11 +25,11 @@ const Work = () => {
 
         </div>
       </div>
-      <div className="contactFoot">
+      <div className="workFoot">
       
-      <div className="contactFootL"><p>Neeraj Kumar - 2024</p></div>
+      <div className="workFootL"><p>Neeraj Kumar - 2024</p></div>
       
-      <div className="contactFootR"> 
+      <div className="workFootR"> 
       <div className="socials">
             <a target="_blank" href="https://www.behance.net/000nr1118c21NKR"><img src="/Portfolio/behance.png" alt="" /></a>
             <a target="_blank" href="https://www.linkedin.com/in/neeraj-kumar-002118283/"><img src="/Portfolio/linkedin.png" alt="" /></a>
