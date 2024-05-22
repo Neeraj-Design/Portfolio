@@ -16,10 +16,12 @@
     background-color: #191919;
     transform: scale(1.1);
 }
+
+/* General Container Styles for Projects 1-5 */
 .project1-container,
+.project2-container,
 .project3-container,
 .project4-container,
-.project42-container,
 .project5-container {
     width: 100%;
     max-width: 100vw;
@@ -27,19 +29,56 @@
 }
 
 .project1-container img,
+.project2-container img,
 .project3-container img,
 .project4-container img,
-.project42-container img,
 .project5-container img,
+.project1-container video,
+.project2-container video,
 .project3-container video,
-.project4-container video {
+.project4-container video,
+.project5-container video {
     width: 100%;
     height: auto;
     display: block;
+    transition: filter 0.5s ease, opacity 0.5s ease;
+}
+
+/* Loading and Loaded States for Project Images */
+.project1-container img.loading,
+.project2-container img.loading,
+.project3-container img.loading,
+.project4-container img.loading,
+.project5-container img.loading,
+.project1Text-container img.loading,
+.project2Text-container img.loading,
+.project3Text-container img.loading,
+.project4Text-container img.loading,
+.project5Text-container img.loading {
+    filter: blur(5px);
+    opacity: 0.5;
+}
+
+.project1-container img.loaded,
+.project2-container img.loaded,
+.project3-container img.loaded,
+.project4-container img.loaded,
+.project5-container img.loaded,
+.project1Text-container img.loaded,
+.project2Text-container img.loaded,
+.project3Text-container img.loaded,
+.project4Text-container img.loaded,
+.project5Text-container img.loaded {
+    filter: blur(0);
+    opacity: 1;
 }
 
 /* Scrolling and Prototype Styles */
-.proj1-scrolling {
+.proj1-scrolling,
+.proj2-scrolling,
+.proj3-scrolling,
+.proj4-scrolling,
+.proj5-scrolling {
     display: flex;
     overflow-x: auto;
 }
@@ -60,6 +99,10 @@
     }
 
     .project1Text-container,
+    .project2Text-container,
+    .project3Text-container,
+    .project4Text-container,
+    .project5Text-container,
     .animationFrame {
         display: none;
     }
@@ -87,14 +130,22 @@
 }
 
 /* Project Text Container Styles */
-.project1Text-container {
+.project1Text-container,
+.project2Text-container,
+.project3Text-container,
+.project4Text-container,
+.project5Text-container {
     width: 100%;
-margin-top: -10px;
+    margin-top: -10px;
     max-width: 100vw;
     overflow: hidden;
 }
 
-.project1Text-container img {
+.project1Text-container img,
+.project2Text-container img,
+.project3Text-container img,
+.project4Text-container img,
+.project5Text-container img {
     width: 100%;
     height: auto;
     display: block;
@@ -137,46 +188,34 @@ margin-top: -10px;
 .project42-container {
     display: none;
 }
+.blur {
+    filter: blur(10px);
+    transition: filter 0.5s ease-in-out;
+}
 
 @media screen and (max-width: 768px) {
     .project42-container {
         display: block;
     }
-
-
-  
 }
 
-.footerStrip{
+/* Footer Strip Styles */
+.footerStrip {
     display: flex;
     justify-content: space-between;
     font-size: 16px;
     align-items: center;
     font-weight: 500;
     color: #333333;
-   
 }
-.footerStrip p{
+
+.footerStrip p {
     margin-left: 50px;
     margin-right: 50px;
 }
-/* .footerStripGrey{
-    display: flex;
-    justify-content: space-between;
-    font-size: 16px;
-    align-items: center;
-    font-weight: 500;
-    color: #333333;
-    background-color: #DBDBDC;
-   
-}
-.footerStripGrey p{
-    margin-left: 50px;
-    margin-right: 50px;
-} */
+
 @media screen and (max-width: 768px) {
     .footerStrip {
         display: none;
-        /* Hide the footerStrip on mobile devices */
     }
 }

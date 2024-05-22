@@ -1,30 +1,55 @@
 import Navbar from '../components/Navbar';
 import './project.css';
-import { useEffect } from 'react';
+import { useEffect, useState } from 'react';
+
 const AliveSpaces = () => {
-   useEffect(() => {
+  const [loadedImages, setLoadedImages] = useState([]);
+
+  useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
 
-   const scrollToTop = () => {
+  const handleImageLoad = (index) => {
+    setLoadedImages(prev => [...prev, index]);
+  };
+
+  const scrollToTop = () => {
     window.scrollTo({
       top: 0,
       behavior: 'smooth'
     });
   };
+
+  const images = [
+    "/Portfolio/p31.png",
+    "/Portfolio/p3.jpg"
+  ];
+
   return (
     <>
       <Navbar /> 
       <div className="project3-container">
-        <img src="/Portfolio/p31.png" alt="" />
+        <img
+          loading="lazy"
+          src={images[0]}
+          alt="Project Image 1"
+          className={loadedImages.includes(0) ? '' : 'blur'}
+          onLoad={() => handleImageLoad(0)}
+        />
         <video src="/Portfolio/Mockup.mp4" autoPlay loop controls={false} playsInline></video>
-        <img src="/Portfolio/p3.jpg" alt="" />
+        <img
+          loading="lazy"
+          src={images[1]}
+          alt="Project Image 2"
+          className={loadedImages.includes(1) ? '' : 'blur'}
+          onLoad={() => handleImageLoad(1)}
+        />
       </div>
       <div className="footerStrip">
-    <p>Neeraj Kumar - 2024</p>
-    <p>neeraj942000@gmail.com</p>
-  </div>
-  <button className="scrollToTop" onClick={scrollToTop}>▲</button>
+        <p>Neeraj Kumar - 2024</p>
+        <p>neeraj942000@gmail.com</p>
+      </div>
+      <button className="scrollToTop" onClick={scrollToTop}>▲</button>
     </>
   );
 };
