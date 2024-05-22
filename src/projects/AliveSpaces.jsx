@@ -5,6 +5,13 @@ const AliveSpaces = () => {
    useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
+
+   const scrollToTop = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth'
+    });
+  };
   return (
     <>
       <Navbar /> 
@@ -17,6 +24,7 @@ const AliveSpaces = () => {
     <p>Neeraj Kumar - 2024</p>
     <p>neeraj942000@gmail.com</p>
   </div>
+  <button className="scrollToTop" onClick={scrollToTop}>▲</button>
     </>
   );
 };

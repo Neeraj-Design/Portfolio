@@ -5,6 +5,13 @@ const HomeHive = () => {
    useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
+
+   const scrollToTop = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth'
+    });
+  };
   return (
     <>
     <Navbar /> 
@@ -28,6 +35,7 @@ const HomeHive = () => {
     <p>Neeraj Kumar - 2024</p>
     <p>neeraj942000@gmail.com</p>
   </div>
+  <button className="scrollToTop" onClick={scrollToTop}>▲</button>
     </>
   )
 }

@@ -7,9 +7,17 @@ const EasyGrocery = () => {
     window.scrollTo(0, 0);
   }, []);
 
+  // Function to scroll to the top smoothly
+  const scrollToTop = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth'
+    });
+  };
+
   return (
     <>
-      <Navbar /> 
+      <Navbar />
       <div className="project5-container">
         <img src="/Portfolio/p5N.jpg" alt="Project Image 1" />
       </div>
@@ -24,11 +32,12 @@ const EasyGrocery = () => {
         />
       </div>
       <div className="footerStrip">
-    <p>Neeraj Kumar - 2024</p>
-    <p>neeraj942000@gmail.com</p>
-  </div>
+        <p>Neeraj Kumar - 2024</p>
+        <p>neeraj942000@gmail.com</p>
+      </div>
+      <button className="scrollToTop" onClick={scrollToTop}>▲</button>
     </>
   );
-}
+};
 
 export default EasyGrocery;

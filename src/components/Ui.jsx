@@ -1,7 +1,14 @@
 import "./Ui.css";
 import Navbar from '../components/Navbar'; 
 import { Link } from "react-router-dom";
+import { useEffect } from 'react';
+
 const Ui = () => {
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   return (
     <>
     <Navbar /> 
