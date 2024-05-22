@@ -1,10 +1,18 @@
-/* .contactContainer {
+/* Ensure the body doesn't allow horizontal overflow */
+body {
+  overflow-x: hidden;
+}
+
+/* Set a max-width for the contact container */
+.contactContainer {
   position: relative;
+  max-width: 100vw;
+  /* Ensures the container doesn't exceed the viewport width */
   background-size: 60%;
   background-repeat: no-repeat;
   background-position-x: right;
   background-position-y: 200px;
-} */
+}
 
 .contactFirst {
   width: 500px;
@@ -14,8 +22,8 @@
   font-weight: 500;
   color: #191919;
 }
-.contactFirst p{
-  
+
+.contactFirst p {
   margin-top: 3px;
 }
 
@@ -38,35 +46,28 @@
   margin-top: 30px;
 }
 
-/* .contactMid img {
-  height: 200px;
-} */
-
 .contactMidContent {
   position: relative;
   z-index: 1;
-  /* Ensure text is above the image */
 }
 
 .contactMidimg {
-  position: absolute;
-  top: 0;
-  left: 0;
+  position: relative;
+  /* Changed from absolute to relative */
   width: 100%;
   height: 100%;
   z-index: 0;
 }
 
 .contactMidimg img {
-  height: 350px;
-  margin-top: 10px;
-  margin-left: 350px;
+  height: 420px;
+  margin-top: -100px;
+  margin-left: 340px;
 }
 
 .contactFoot {
   position: fixed;
   margin-left: 170px;
-  /* Stick the footer at the bottom of the viewport */
   bottom: 0;
   width: 100%;
   background-color: #ffffff00;
@@ -79,11 +80,13 @@
   color: #333333;
 }
 
-/* .contactFootL {
-  margin-left: 170px;
-} */
-
 .contactFootR {
-  /* margin-right: 170px; */
   margin-bottom: -12px;
-} 
+}
+
+/* Ensure all images and links do not exceed the viewport */
+img,
+a {
+  max-width: 100%;
+  display: block;
+}
