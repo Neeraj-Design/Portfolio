@@ -4,7 +4,14 @@ const Contact = () => {
   return (
     <>
       <Navbar /> 
+      <div className="contactMobile">
+      <img src="/Portfolio/contactMobile.jpg" alt="" />
+      </div>
     <div className="contactContainer">
+<div className="contactimg">
+  <img src="/Portfolio/contact.jpg" alt="" />
+</div>
+
      <div className="contactFirst">
       <div className="contactList">
         <p>Email:</p>
@@ -22,14 +29,16 @@ const Contact = () => {
       </div>
      </div>
 
-     <div className="contactMid">
+     {/* <div className="contactMid">
      <span> I look forward to</span>
      <span>hearing from you!</span>
      <div className="contactMidimg"><img src="/Portfolio/NKbg.png" alt="" /></div>
      
 
-     </div>
+     </div> */}
      <div className="contactFoot">
+      
+      <div className="contactFootL"><p>Neeraj Kumar - 2024</p></div>
       
       <div className="contactFootR"> 
       <div className="socials">
@@ -39,8 +48,6 @@ const Contact = () => {
           </div>
           
           </div>
-      <div className="contactFootL"><p>Neeraj Kumar - 2024</p></div>
-      
      </div>
      </div>
     </>
